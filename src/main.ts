@@ -1,13 +1,4 @@
-import {
-	App,
-	Editor,
-	MarkdownView,
-	Modal,
-	Notice,
-	Plugin,
-	request,
-	requestUrl,
-} from "obsidian";
+import { Editor, Plugin, requestUrl } from "obsidian";
 import {
 	DEFAULT_SETTINGS,
 	MyPluginSettings,
