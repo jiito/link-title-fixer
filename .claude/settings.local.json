@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/bjar/git/link-title-fixer log --oneline -15)",
+      "Bash(find /Users/bjar/git/link-title-fixer -maxdepth 1 -name \".*\" -type f 2>/dev/null | sort)",
+      "Bash(tree -L 3 -I 'node_modules' /Users/bjar/git/link-title-fixer 2>/dev/null || find /Users/bjar/git/link-title-fixer -not -path '*/node_modules/*' -not -path '*/.git/*' -type f | head -30)"
+    ]
+  }
+}
